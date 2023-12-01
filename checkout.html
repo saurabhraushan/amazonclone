@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/checkout.css">
+  <link rel="stylesheet" href="styles/general.css">
+</head>
+<body>
+  <div class="checkout-header">
+    <div class="logo-container">
+      <a href="amazon.html"><img src="amazon-logo.png" alt=""></a>
+      
+    </div>
+    <div class="checkout-label">Checkout(<span class="checkout-product-quantity js-cart-quantity">8 </span><span class="">items </span>)</div>
+    <div class="checkout-lock-icon"><img src="checkout-lock-icon.png" alt=""></div>
+  </div>
+  <main>
+    <div class="Review">Review your order</div>
+    <div class="cart-summary">
+      <div class="cart-products">
+        
+        
+      </div>
+      <div class="cart-price">
+        <div class="order-summary">
+          Order Summary
+        </div>
+        <div class="total-items-price">
+          <div class="total-items">Items(<span class="checkout-product-quantity">8</span>):</div>
+          <div class="total-price">$78.47</div>
+        </div>
+        <div class="shipping-handling-price">
+          <div>shipping & handling</div>
+          <div class="shipping-price1">$0.00</div>
+        </div>
+        <div class="total-before-tax">
+          <div>Total before tax:</div>
+          <div class="total-before-tax-price">$78.47</div>
+        </div>
+        <div class="total-tax">
+          <div>Estimated tax(10%):</div>
+          <div class="estimated-tax">$7.85</div>
+        </div>
+        <div class="order-total">
+          <div>Order total:</div>
+          <div class="order-total-price">$86.32</div>
+        </div>
+        <div>Use PayPal <input type="checkbox"> </div>
+        <div class="place-order">
+          <button>Place your order</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="data/checkout.js"></script>
+  <script type="module" src="data/cart.js"></script>
+  
+  
+</body>
+</html>
